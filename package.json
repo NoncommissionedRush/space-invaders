@@ -1,0 +1,16 @@
+{
+  "name": "space-invaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.js --bundle > build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.13.9",
+    "kaboom": "^2000.0.0"
+  }
+}
